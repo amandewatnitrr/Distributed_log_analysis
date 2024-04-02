@@ -68,12 +68,12 @@ flowchart LR
 ### Kafka Implementation - Demo
 
 
-![](./imgs/Screenshot%202024-03-13%20at%201.55.48 AM.png)
+![](./imgs/Screenshot%202024-03-13%20at%201.55%201.png)
  
 ### Log Analysis Report - Demo
 
 
-![](./imgs/Dashboard.PNG)
+![](./imgs/Dashboard.png)
 
 
 ## Technology and Tech Stack Involved
