@@ -3,13 +3,13 @@ from elasticsearch import Elasticsearch
 from datetime import datetime
 
 # Elasticsearch server details
-es_host = '10.184.230.45'
+es_host = '10.124.230.45'
 es_port = 9200
 es_index = 'hackathondata'
 es_type = '_doc'  # Elasticsearch 7.x and later versions use "_doc" as the type
 
 # Log file location
-log_file_path = '/root/amar_hackathon/host-session-manager_log.log'
+log_file_path = '/root/aman_hackathon/host-session-manager_log.log'
 
 # Connect to Elasticsearch
 es = Elasticsearch([{'host': es_host, 'port': es_port}])
