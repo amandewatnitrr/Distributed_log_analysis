@@ -31,7 +31,7 @@ def push_logs_to_kafka(file_path, topic, bootstrap_servers):
         producer.flush()
 
 if __name__ == "__main__":
-    log_file_path = '/Users/akd/Github/GE_IMG_Hackathon_2024/logs.json'  # Adjust the path to your log file
+    log_file_path = '/Users/akd/Github/aman_Hackathon_2024/logs.json'  # Adjust the path to your log file
     kafka_topic = 'my_logs'  # Replace with the actual Kafka topic
     kafka_bootstrap_servers = 'localhost:9092'  # Replace with your Kafka bootstrap servers
 
